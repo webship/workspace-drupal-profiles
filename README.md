@@ -1,4 +1,4 @@
-# @webship/workspace-drupal-profiles
+# @webship.co/workspace-drupal-profiles
 
 The **Drupal profiles** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `profiles/` folder (type `sites`), its settings file (`core/config/workspace.profiles.settings.yml`),
