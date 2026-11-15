@@ -67,3 +67,13 @@ bash cmd-tools-update-all.sh                          # Bootstrap.
 
 Every one locates the workspace from its own path, so there is nothing to export and nothing to
 install. `--help` on any of them lists its arguments.
+
+## AI items for this folder
+
+The plugin of this folder (`@webship.co/workspace-drupal-profiles`) places its own AI items in the AI folders of the
+workspace, when they are active:
+
+- `profiles-builder` (`ai-agents/`): Builds one Drupal installation profile or distribution in `profiles/` with its builder, says where it answers, checks it and clears it; never runs the build-all command unasked
+- `profiles-workflow` (`ai-skills/`): How work is done in `profiles/`: pick, make sure nobody works in it, build, install, clear; every builder, every tool with its flags, the settings keys
+- `/profiles-build` (`ai-commands/`): `/profiles-build <profile>`: finds the builder, checks the folder is free, builds and says where the build answers
+- `profiles-build-and-look` (`ai-prompts/`): A new session that builds one profile, says what it is made of and clears it
